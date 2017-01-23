@@ -73,7 +73,6 @@ public class ReconciliationEngineService {
 
     public static void main(String[] args) {
         int port = 15300;
-
         GraphqlClient mockClient = new GraphqlClientMock();
         PaymentPayableMatcher matcher = new RecallDrivenPaymanetPayableMatcher();
         ReconciliationEngineService service = new ReconciliationEngineService(mockClient, matcher);
