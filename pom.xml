@@ -55,7 +55,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib</classpathPrefix>
-                            <mainClass>com.github.oreny.reconciliationengine.service.ReconciliationEngineServiceMain</mainClass>
+                            <mainClass>com.github.oreny.reconciliationengine.service.ReconciliationEngineService</mainClass>
                             <useUniqueVersions>false</useUniqueVersions>
                         </manifest>
                     </archive>
