@@ -1,0 +1,137 @@
+{
+  "data": {
+    "business": {
+      "businessTransactions": {
+        "edges": [
+          {
+            "node": {
+              "id": "VHJhbnNhY3Rpb25Ob2RlOjRiYWRkMDI3LTg0YmEtNDJiMi05YWZkLTBhMWMwNWEwMjI1ZA==",
+              "payables": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "UGF5YWJsZU5vZGU6ZjNjNzg3MWYtYTI0My00ZjU3LTg1MjUtYTNjZDFmZTI0YWZl",
+                      "amount": 15.35,
+                      "referenceId": "AB123",
+                      "dateOccurred": "2016-10-01"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "VHJhbnNhY3Rpb25Ob2RlOmNiODkxNDY3LTg4MjAtNDIxZi1hNDMwLWIwYWJjZTY5MDZhMA==",
+              "payables": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "UGF5YWJsZU5vZGU6MjhiYmNkYTctYzlkYS00YjZlLTg0MjYtNmYzMmE1YzI4MGJk",
+                      "amount": 55.12,
+                      "referenceId": "BAB12A2-55",
+                      "dateOccurred": "2016-10-05"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "VHJhbnNhY3Rpb25Ob2RlOmE1NGQ4MzI1LTNhMDMtNGFiNi1iODUwLTVhN2U2MWYzOTI5Nw==",
+              "payables": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "UGF5YWJsZU5vZGU6ZTk2MmUwYzktYTdhNS00NTc4LWE3ZmItMGM3ODgzNDA3MjUz",
+                      "amount": 10000,
+                      "referenceId": "AB-1213-ABCA",
+                      "dateOccurred": "2016-10-31"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "VHJhbnNhY3Rpb25Ob2RlOjZmNGZjMDE3LTcyODMtNGY3YS05YWVjLTE5MjQ1MGZmZWFmMw==",
+              "payables": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "UGF5YWJsZU5vZGU6ZDA3YWQ0ZmItMzRiOS00NzEyLTlkN2YtNTc2YzRjYzJmY2I2",
+                      "amount": 21.25,
+                      "referenceId": "AB166",
+                      "dateOccurred": "2016-10-10"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "VHJhbnNhY3Rpb25Ob2RlOjdlYWVlYzc4LWM1ZGEtNDMwZi1iODU1LTU5YzgxZWRmM2ZhOA==",
+              "payables": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "UGF5YWJsZU5vZGU6MTYwZDhhYTQtMzQ2My00OTgzLWJjY2YtMGQ3ZDU0ZTI5ZGQ0",
+                      "amount": 48.75,
+                      "referenceId": "AC11144",
+                      "dateOccurred": "2016-10-11"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "VHJhbnNhY3Rpb25Ob2RlOjVhNmJiZGM5LTJjODAtNDAxOS1iOWRlLTg3ZDFmOGRlNTliNA==",
+              "payables": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "VHJhbnNhY3Rpb25Ob2RlOmFmNWJiZmM2LTg1YzAtNDY5Zi04NTE1LWEyMjg5MWQ2MjIzNA==",
+              "payables": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "UGF5YWJsZU5vZGU6YjI0MjhkMzUtYTQxMC00ZDE3LTliYmItOTg1NTk4Y2U0YjA1",
+                      "amount": 46.55,
+                      "referenceId": "AC11144",
+                      "dateOccurred": "2016-10-10"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "VHJhbnNhY3Rpb25Ob2RlOjY4NDc0MTQyLWJhYTQtNDEzOC05N2IyLWYwOTY5NDEwNzk4MA==",
+              "payables": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "UGF5YWJsZU5vZGU6MzhiMTg4NWEtMGQ0MS00MmFlLThmZjgtM2E3MDI1MDhlMWYx",
+                      "amount": 55.12,
+                      "referenceId": "ABABA-1212",
+                      "dateOccurred": "2016-10-10"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
