@@ -1,4 +1,4 @@
-package com.github.oreny.reconciliationengine.service;
+package com.github.oreny.reconciliationengine.engine;
 
 import com.github.oreny.reconciliationengine.data.Payable;
 import com.github.oreny.reconciliationengine.data.serializer.PayableJsonSerializer;
