@@ -44,6 +44,7 @@ public class ReconciliationEngineService {
         try {
             PaymentJsonSerializer serializer = new PaymentJsonSerializer();
             payment = serializer.fromJson(req.body());
+            System.out.println("link request for payment: " + payment.toString());
         } catch (Exception e) {
             res.type("text");
             res.status(400);
@@ -52,7 +53,9 @@ public class ReconciliationEngineService {
         try {
             res.status(200);
             res.type("application/json");
-            return gson.toJson(link(payment));
+            String jsonRespnose = gson.toJson(link(payment));
+            System.out.println("Response: " + jsonRespnose);
+            return jsonRespnose;
         } catch (Exception e) {
             res.status(500);
             res.type("text");
@@ -69,11 +72,12 @@ public class ReconciliationEngineService {
     }
 
     public static void main(String[] args) {
-        int port = 8080;
+        int port = 15300;
 
         GraphqlClient mockClient = new GraphqlClientMock();
         PaymentPayableMatcher matcher = new RecallDrivenPaymanetPayableMatcher();
         ReconciliationEngineService service = new ReconciliationEngineService(mockClient, matcher);
         service.startService(port);
+        System.out.println("Server started on port: " + port);
     }
 }
